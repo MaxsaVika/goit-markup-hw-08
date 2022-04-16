@@ -1,0 +1,36 @@
+.form-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.checkbox-icon {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    margin-right: 8.38px;
+
+    border: 2px solid var(--title-text-color);
+    border-radius: 2px;
+
+    transition: border-color 250ms var(--timing-function);
+
+    .checkbox:checked+& {
+        background-color: var(--accent-color);
+        background-image: url('../img/icon-check.svg');
+        background-size: contain;
+        background-origin: border-box;
+        border-color: var(--accent-color);
+    }
+
+    .checkbox:focus+& {
+        border-color: var(--accent-color);
+        outline: none;
+    }
+}
+
+.checkbox-label {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-text-color);
+}

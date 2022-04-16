@@ -1,0 +1,25 @@
+body {
+    font-family: var(--primary-font-family);
+    color: var(--primary-text-color);
+    background-color: var(--body-background-color);
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
