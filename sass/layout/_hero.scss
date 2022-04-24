@@ -1,15 +1,15 @@
 .hero {
-    max-width: 1600px;
-    height: 600px;
+    // max-width: 480px;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 118px;
+    padding-bottom: 118px;
 
     background-image: linear-gradient(to right,
             var(--hero-gradient-color),
             var(--hero-gradient-color)),
-        url('../img/hero-bg.jpg');
+        url('../img/mobile/header-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -18,13 +18,13 @@
 }
 
 .hero__title {
-    width: 696px;
+    width: 360px;
     margin: 0 auto;
     margin-bottom: 30px;
 
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-size: 26px;
+    line-height: 1.62;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-text-color);
@@ -34,10 +34,72 @@
     padding: 10px 32px;
     min-width: 200px;
     text-align: center;
-    
+
     transition: background-color 250ms var(--timing-function);
 
     &:hover {
         background-color: #188ce8;
     }
 }
+
+@media screen and (min-width:768px){
+    .hero {
+        // max-width: 768px;
+        
+        background-image: linear-gradient(to right,
+                var(--hero-gradient-color),
+                var(--hero-gradient-color)),
+            url('../img/tablet/header-img.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    
+        text-align: center;
+    }
+    
+
+}
+
+// .hero {
+//     max-width: 1600px;
+//     height: 600px;
+//     margin-left: auto;
+//     margin-right: auto;
+//     padding-top: 200px;
+//     padding-bottom: 200px;
+
+//     background-image: linear-gradient(to right,
+//             var(--hero-gradient-color),
+//             var(--hero-gradient-color)),
+//         url('../img/hero-bg.jpg');
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-position: center;
+
+//     text-align: center;
+// }
+
+// .hero__title {
+//     width: 696px;
+//     margin: 0 auto;
+//     margin-bottom: 30px;
+
+//     font-weight: 900;
+//     font-size: 44px;
+//     line-height: 1.36;
+//     letter-spacing: 0.06em;
+//     text-transform: uppercase;
+//     color: var(--white-text-color);
+// }
+
+// .hero__button {
+//     padding: 10px 32px;
+//     min-width: 200px;
+//     text-align: center;
+    
+//     transition: background-color 250ms var(--timing-function);
+
+//     &:hover {
+//         background-color: #188ce8;
+//     }
+// }

@@ -1,8 +1,21 @@
-.page-header {
-    border-bottom: 1px solid #ececec;
-}
-
 .header-container {
     display: flex;
     align-items: center;
 }
+
+.page-header {
+    border-bottom: 1px solid #ececec;
+}
+
+@media screen and (max-width:767px){
+    .header-container {
+        justify-content: space-between;
+    }
+
+    .page-header {
+        position: relative;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
