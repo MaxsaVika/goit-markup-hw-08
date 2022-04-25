@@ -17,6 +17,12 @@
     }
 }
 
+@media screen and (max-width:1199px){
+    .modal{
+        width: 455px;
+    }
+}
+
 .close-btn {
     position: absolute;
     top: 8px;
@@ -38,8 +44,6 @@
         fill: var(--accent-color);
     }
 }
-
-
 
 .modal-title {
     margin: 0;

@@ -6,6 +6,7 @@
 }
 
 .client-list__item {
+    flex-basis: calc((100% - 2*30px) / 2);
     margin-top: 30px;
     margin-left: 30px;
 }
@@ -14,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 170px;
+    // width: 170px;
     height: 92px;
 
     border: 1px solid var(--icon-color);
@@ -38,5 +39,17 @@
     .client-list__link:hover &,
     .client-list__link:focus & {
         fill: var(--accent-color);
+    }
+}
+
+@media screen and (min-width:768px){
+    .client-list__item {
+        flex-basis: calc((100% - 3*30px) / 3);
+    }
+}
+
+@media screen and (min-width:1200px){
+    .client-list {
+        flex-wrap: nowrap;
     }
 }

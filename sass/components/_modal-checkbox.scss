@@ -34,3 +34,14 @@
     line-height: 1.71;
     color: var(--primary-text-color);
 }
+
+@media screen and (max-width:1199px){
+    .checkbox-label {
+        font-size: 12px;
+        line-height: 1.17;
+    }
+
+    .checkbox-icon {
+        margin-right: 8px;
+    }
+}
