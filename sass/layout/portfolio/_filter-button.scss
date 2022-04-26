@@ -3,15 +3,18 @@
     justify-content: start;
     flex-wrap: wrap;
     // justify-content: center;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+    margin-top: -15px;
+    margin-left: -8px;
 }
 
-.filter-list__item:not(:last-child) {
-    margin-right: 8px;
-}
+// .filter-list__item:not(:last-child) {
+//     margin-right: 8px;
+// }
 
 .filter-list__item {
-    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 8px;
 }
 
 .filter-list__button {

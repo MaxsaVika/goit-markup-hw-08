@@ -92,8 +92,12 @@
     .mobile-wrapper {
         margin-top: auto;
     }
+
+    .mobile-menu__contact-list{
+        margin-bottom: 64px;
+    }
    
-    .mobile-menu__contact-item {
+    .mobile-menu__contact-item:not(:last-child){
         margin-bottom: 32px;
     }
     
@@ -118,7 +122,7 @@
     .mobile-menu__social-list {
         display: flex;
         justify-content: left;
-        padding-top: 32px;
+        // padding-top: 32px;
     }
     
     .mobile-menu__social-item:not(:first-child) {
